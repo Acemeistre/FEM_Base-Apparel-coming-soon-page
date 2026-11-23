@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link href="styles.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <script src="index.js" defer></script>
   <title>Frontend Mentor | Base Apparel coming soon page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
-  
-
+  <header>
+    <img class="logo" src="images/logo.svg" alt="Base Apparel" />
+  </header>
+  <div class="container">
+    <picture>
+      <source srcset="images/hero-mobile.jpg" media="(max-width: 767px)" />
+      <img src="images/hero-desktop.jpg" alt="picture of a fashinable female model" />
+    </picture>
+  </div>
+  <main>
+    <h1 class="hero-banner"><span>We're</span> coming soon</h1>
+    <p>Hello fellow shoppers! We're currently building our new fashion store.
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    <form class="search-wrapper">
+      <input type="text" placeholder="Email Address"/>
+      <button aria-label="Submit email">
+        <img src="images/icon-arrow.svg" alt="" />
+      </button>
+    </form>
+  </main>
 </body>
+
 </html>
