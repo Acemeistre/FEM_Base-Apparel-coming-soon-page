@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*colours*/
+    --color-grey: #423A3A;
+    --color-red: #F96464;
+    --color-pink: #CE9898;
+    --color-gradient: linear-gradient(#F8BFBF, #EE8B8B);
+
+    /*spacing*/
+    --spacing-100: .5rem;
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem;
+    --spacing-400: 2rem;
+    --spacing-500: 2.5rem;
+    --spacing-800: 4rem;
+    --spacing-1000: 5rem;
+    --spacing-1700: 8.5rem;
+}
