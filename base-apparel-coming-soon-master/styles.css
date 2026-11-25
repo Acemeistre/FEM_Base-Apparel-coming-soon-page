@@ -37,3 +37,8 @@ main {
     padding: var(--spacing-400);
 }
 
+
+
+.hero-banner span {
+    font-weight: 100;
+}
