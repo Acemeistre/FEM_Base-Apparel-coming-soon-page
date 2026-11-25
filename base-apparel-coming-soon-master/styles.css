@@ -77,16 +77,21 @@ form {
 
 input {
     padding: .7rem 1.5rem;
-    border-radius: 2rem;
+    border-radius: var(--spacing-300);
     border: 1px solid var(--color-pink);
     text-align: left;
     width: 100%;
 }
 
+input:focus {
+    border: 1px solid var(--color-pink);
+    outline: none;
+}
+
 input::placeholder {
     color: var(--color-pink);
     font-family: "Josefin sans", sans-serif;
-    font-size: 1rem;
+    font-size: var(--spacing-200);
     opacity: 50%;
     
 }
@@ -103,4 +108,25 @@ button {
 .error-icon, 
 .error-msg {
     display: none;
+}
+
+.error-icon {
+    position: absolute;
+    right: 4.5rem;
+}
+
+input[aria-invalid="true"] {
+    border: 3px solid var(--color-red);
+}
+
+.error-msg.error {
+    display: block;
+    position: absolute;
+    color: var(--color-red);
+    left: var(--spacing-800);
+    font-size: .8rem;
+}
+
+form.error .error-icon {
+    display: block;
 }
