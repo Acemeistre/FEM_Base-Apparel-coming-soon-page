@@ -27,10 +27,13 @@ body {
     margin: 0;
 }
 
+header { 
+    padding: var(--spacing-300) var(--spacing-500);
+}
+
 header img {
     width: var(--spacing-1700);
     margin: 0;
-    padding: var(--spacing-300);
 }
 
 picture img {
