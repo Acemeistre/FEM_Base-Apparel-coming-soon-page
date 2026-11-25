@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 header { 
@@ -43,6 +44,10 @@ picture img {
 
 main {
     padding: var(--spacing-400);
+    flex: 1;
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-banner {
@@ -141,7 +146,10 @@ form.error .error-icon {
         object-position: center 14%;
     }
     main {
+        display: flex;
+        flex-direction: column;
         padding: var(--spacing-500) 10rem;
+        justify-content: center;
     }
     .hero-banner {
         font-size: var(--spacing-800);
