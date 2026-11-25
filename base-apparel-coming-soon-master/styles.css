@@ -66,6 +66,17 @@ main {
     line-height: var(--spacing-300);
 }
 
+form {
+    justify-self: center;
+}
+
+button {
+    background: var(--color-gradient);
+    padding: var(--spacing-100) var(--spacing-300);
+    border-radius: 1.5rem;
+    border: none;
+}
+
 .error-icon, 
 .error-msg {
     display: none;
