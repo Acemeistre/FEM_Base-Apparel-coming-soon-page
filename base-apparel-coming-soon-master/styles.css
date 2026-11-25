@@ -33,6 +33,11 @@ header img {
     padding: var(--spacing-300);
 }
 
+picture img {
+    flex: 1;
+    width: 100%;
+}
+
 main {
     padding: var(--spacing-400);
 }
