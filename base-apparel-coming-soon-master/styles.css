@@ -76,7 +76,7 @@ form {
 }
 
 input {
-    padding: .7rem 1.5rem;
+    padding: .8rem 1.5rem;
     border-radius: var(--spacing-300);
     border: 1px solid var(--color-pink);
     text-align: left;
@@ -130,4 +130,32 @@ input[aria-invalid="true"] {
 
 form.error .error-icon {
     display: block;
+}
+
+@media (min-width: 768px) {
+    picture img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 48 / 25;
+        object-fit: cover;
+        object-position: center 14%;
+    }
+    main {
+        padding: var(--spacing-500) 10rem;
+    }
+    .hero-banner {
+        font-size: var(--spacing-800);
+        line-height: var(--spacing-1000)
+    }
+    .hero-text {
+        line-height: var(--spacing-400);
+    }
+    input {
+        padding: 1.2rem 1.5rem;
+        border-radius: var(--spacing-400);
+    }
+    button {
+        padding: var(--spacing-200) var(--spacing-500);
+        border-radius: 2rem;
+    }
 }
