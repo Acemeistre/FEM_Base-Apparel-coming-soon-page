@@ -19,3 +19,21 @@
     --spacing-1000: 5rem;
     --spacing-1700: 8.5rem;
 }
+
+body {
+    font-family: "Josefin-sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header img {
+    width: var(--spacing-1700);
+    margin: 0;
+    padding: var(--spacing-300)
+}
+
+main {
+    padding: var(--spacing-400);
+}
+
