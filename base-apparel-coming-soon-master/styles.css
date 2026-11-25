@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: "Josefin-sans", sans-serif;
+    font-family: "Josefin sans", sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -30,15 +30,24 @@ body {
 header img {
     width: var(--spacing-1700);
     margin: 0;
-    padding: var(--spacing-300)
+    padding: var(--spacing-300);
 }
 
 main {
     padding: var(--spacing-400);
 }
 
-
+.hero-banner {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: var(--spacing-100);
+    font-weight: 500;
+    font-size: var(--spacing-500);
+    margin: 0;
+    padding: var(--spacing-100) 0 var(--spacing-100); 
+}
 
 .hero-banner span {
-    font-weight: 100;
+    font-weight: 300;
+    color: var(--color-pink)
 }
