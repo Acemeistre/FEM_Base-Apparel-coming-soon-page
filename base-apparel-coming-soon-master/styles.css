@@ -65,3 +65,8 @@ main {
     text-align: center;
     line-height: var(--spacing-300);
 }
+
+.error-icon, 
+.error-msg {
+    display: none;
+}
