@@ -67,10 +67,33 @@ main {
 }
 
 form {
+    position: relative;
+    display: flex;
     justify-self: center;
+    align-items: center;
+    width: 95%;
+    margin-top: var(--spacing-400);
+}
+
+input {
+    padding: .7rem 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color-pink);
+    text-align: left;
+    width: 100%;
+}
+
+input::placeholder {
+    color: var(--color-pink);
+    font-family: "Josefin sans", sans-serif;
+    font-size: 1rem;
+    opacity: 50%;
+    
 }
 
 button {
+    position: absolute;
+    right: 0;
     background: var(--color-gradient);
     padding: var(--spacing-100) var(--spacing-300);
     border-radius: 1.5rem;
