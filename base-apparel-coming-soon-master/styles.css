@@ -80,6 +80,7 @@ input {
     border-radius: var(--spacing-300);
     border: 1px solid var(--color-pink);
     text-align: left;
+    font-family: "Josefin sans", sans-serif;
     width: 100%;
 }
 
