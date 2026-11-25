@@ -51,3 +51,9 @@ main {
     font-weight: 300;
     color: var(--color-pink)
 }
+
+.hero-text {
+    color: var(--color-pink);
+    text-align: center;
+    line-height: var(--spacing-300);
+}
