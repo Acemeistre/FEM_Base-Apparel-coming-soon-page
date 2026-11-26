@@ -1,6 +1,6 @@
-# Frontend Mentor - Article preview component solution
+# Frontend Mentor - Base apparel coming soon page solution
 
-This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Base apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repo](https://github.com/Acemeistre/FEM_article-preview-component/)
-- Live Site URL: [Live site](https://acemeistre.github.io/article-preview-component/)
+- Solution URL: [GitHub repo](https://github.com/Acemeistre/FEM_Base-apparel-coming-soon-page/)
+- Live Site URL: [Live site](https://acemeistre.github.io/Base-apparel-coming-soon-page/)
 
 ## My process
 
