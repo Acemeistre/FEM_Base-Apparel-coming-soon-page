@@ -30,7 +30,8 @@
     <p class="hero-text">Hello fellow shoppers! We're currently building our new fashion store.
       Add your email below to stay up-to-date with announcements and our launch deals.</p>
     <form class="search-wrapper" novalidate>
-      <input type="email" placeholder="Email Address" aria-describedby="error" aria-invalid="false"/>
+      <label for="email" class="sr-only">Email Address</label>
+      <input type="email" id="email" placeholder="Email Address" aria-describedby="error" aria-invalid="false"/>
       <img src="images/icon-error.svg" class="error-icon" alt="" />
       <button aria-label="Submit email" type="submit">
         <img src="images/icon-arrow.svg" alt="" />

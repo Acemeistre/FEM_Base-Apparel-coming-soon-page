@@ -80,6 +80,14 @@ form {
     margin-top: var(--spacing-400);
 }
 
+.sr-only {
+    position: absolute; 
+    width: 1px; 
+    height: 1px;
+    overflow: hidden; 
+    clip-path: inset(50%);
+}
+
 input {
     padding: .7rem 1.5rem;
     border-radius: var(--spacing-300);
@@ -90,8 +98,8 @@ input {
     width: 100%;
 }
 
-input:focus {
-    border: 1px solid var(--color-pink);
+input:focus-visible {
+    border: 2px solid var(--color-grey);
     outline: none;
 }
 
