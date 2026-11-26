@@ -112,15 +112,15 @@ button {
 }
 
 button {
-  cursor: pointer;
-  transition: filter 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    transition: filter 0.2s ease, box-shadow 0.2s ease;
 }
 
 button:hover,
 button:focus-visible {
-  box-shadow: 0 10px 20px rgba(206, 152, 152, 0.5);
-  filter: brightness(1.08);
-  outline: none;
+    box-shadow: 0 10px 20px rgba(206, 152, 152, 0.5);
+    filter: brightness(1.08);
+    outline: none;
 }
 
 .error-icon,
@@ -196,6 +196,9 @@ form.error .error-icon {
         grid-template-columns: 1.35fr 1fr;
         grid-template-rows: auto 1fr;
         min-height: 100vh;
+        background: url('images/bg-pattern-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 58% 100%;
     }
 
     header {
