@@ -6,7 +6,7 @@ This is a solution to the [Base apparel coming soon page challenge on Frontend M
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,21 +22,31 @@ This is a solution to the [Base apparel coming soon page challenge on Frontend M
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
+- View the optimal layout depending on their device's screen size.
+- See hover and focus states for all interactive elements on the page.
+- Receive an error message when the form is submitted if the input field is empty or the email address is not formatted correctly.
 
-### Screenshot
+### Screenshots
 
-![Screenshot](./assets/images/mobile-default.jpg)
-![Screenshot](./assets/images/mobile-active.jpg)
-![Screenshot](./assets/images/tablet-default.jpg)
-![Screenshot](./assets/images/tablet-active.jpg)
+#### Mobile default
+![Screenshot](./images/mobile-default.jpg)
+#### Mobile error
+![Screenshot](./images/mobile-error.jpg)
+#### Tablet default
+![Screenshot](./images/tablet-default.jpg)
+#### Tablet error
+![Screenshot](./images/tablet-error.jpg)
+#### Desktop default
+![Screenshot](./images/desktop-default.jpg)
+#### Desktop error
+![Screenshot](./images/desktop-error.jpg)
 
-- Note there is no screenshot of desktop views as the tablet and desktop designs are the same. 
+
 
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/Acemeistre/FEM_Base-apparel-coming-soon-page/)
-- Live Site URL: [Live site](https://acemeistre.github.io/Base-apparel-coming-soon-page/)
+- Live Site URL: [Live site](https://acemeistre.github.io/FEM_Base-apparel-coming-soon-page/)
 
 ## My process
 
@@ -46,6 +56,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JavaScript
 
 ### What I learned
 
